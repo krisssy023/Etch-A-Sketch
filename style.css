@@ -1,0 +1,15 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 50px);
+    grid-template-rows: repeat(16, 50px); /*why does 50px work tho?*/
+
+}
+
+/* Define the style for the square divs */
+.grid-item {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    background-color: #ccc; /* Background color */
+    border: 1px solid #000; /* Border color */
+
+}
